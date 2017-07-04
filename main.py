@@ -11,9 +11,9 @@ from email.MIMEText import MIMEText
 from email.MIMEImage import MIMEImage
 import smtplib
 
-ACCOUNT_SID = "ACa7be370a093da413ffc38778e5365171" 
-AUTH_TOKEN = "cf96f1247b96d64852db5f3c0db16175"
-TWILIO_NUMBER = '+17819718068'
+ACCOUNT_SID = "ACCOUNT_SID" 
+AUTH_TOKEN = "AUTH_TOKEN"
+TWILIO_NUMBER = "TWILIO_NUMBER"
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN) 
 app = Flask(__name__)
